@@ -1,0 +1,25 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh
+}
+
+.spinner {
+  border: 8px solid var(--primary-color);
+  border-radius: 50%;
+  border-top: 8px solid var(--green-color);
+  width: 50px;
+  height: 50px;
+  animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

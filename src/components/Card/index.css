@@ -1,0 +1,30 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #212529;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 150px;
+  position: relative;
+}
+
+.icon-action {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 50000;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.order {
+  align-self: flex-start;
+  font-weight: 800;
+  color: #c7003f;
+  margin-top: 1px;
+}

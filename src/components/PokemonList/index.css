@@ -1,0 +1,17 @@
+.container-list-cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.no-results-msg{
+  margin-top: 35px;
+  padding: 15px;
+  border-radius: 8px;
+  width: 50%;
+  background-color: var(--warning-color);
+}

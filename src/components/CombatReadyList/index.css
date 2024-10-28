@@ -1,0 +1,20 @@
+.container-list {
+  margin-top: 35px;
+}
+
+.container-battle-teams {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.not-ready-pokemon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+}

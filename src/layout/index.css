@@ -1,0 +1,25 @@
+.layout {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.body {
+  grid-area: body;
+  background-color: var(--white-color);
+  height: 96vh;
+  border-radius: 7px;
+  overflow-y: auto;
+  width: 80%;
+}
+
+.rightSide {
+  background-color: var(--primary-color);
+  grid-area: rightSide;
+  border-radius: 7px;
+  width: 30%;
+  height: 96vh;
+  overflow-y: auto;
+}

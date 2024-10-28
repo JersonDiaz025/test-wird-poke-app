@@ -1,0 +1,15 @@
+.detail-gneral-content {
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  height: 80%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-back {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

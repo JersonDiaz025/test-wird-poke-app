@@ -1,0 +1,27 @@
+.container-search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #212529;
+  border-radius: 8px;
+}
+
+.input {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border-color: transparent;
+  outline: none;
+  font-weight: 600;
+  color: var(--green-color);
+  font-size: 15px;
+}
