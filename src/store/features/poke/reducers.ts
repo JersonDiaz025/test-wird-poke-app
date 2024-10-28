@@ -18,7 +18,10 @@ const initialState: PokemonState = {
 };
 
 // Pokémon reducer function
-const pokemonReducer = (state = initialState, action: PokemonAction) => {
+const pokemonReducer = (
+  state: PokemonState = initialState,
+  action: PokemonAction
+) => {
   switch (action.type) {
     case SET_ALL_POKEMON:
       return {
