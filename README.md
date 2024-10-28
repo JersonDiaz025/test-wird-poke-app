@@ -6,8 +6,6 @@ Pokemon is a media franchise created by Satoshi Tajiri and Ken Sugimori, and it 
 
 ## Steps for run the project
 
-git clone https://github.com/JersonDiaz025/test-wird-poke-app.git
-
 - Clone repository: `git clone https://github.com/JersonDiaz025/test-wird-poke-app.git`
 - Install dependency with: `npm install`.
 - Run environment: `npm run dev`.
